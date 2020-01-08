@@ -24,7 +24,7 @@ namespace WpfTreeView
                 return null;
 
 
-            var name = MainWindow.GetFileFolderName(path);
+            var name = DirectoryStructure.GetFileFolderName(path);
 
             
 
