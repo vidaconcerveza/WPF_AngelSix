@@ -3,8 +3,10 @@ using System.ComponentModel;
 
 namespace WpfTreeView
 {
-    public class BaseViewMode : INotifyPropertyChanged
+    //[ImplementPropertyChanged]
+    public class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged=(sender, e) => { };
+
     }
 }
